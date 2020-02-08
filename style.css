@@ -3,15 +3,19 @@ img{
     width: 450px;
     border-radius: 10px;
     border: 2px solid rgb(46, 204, 113);
-    padding: 5px;
+    
 }
 body{
-    background-image: url(https://yt3.ggpht.com/a/AGF-l79j7wrciNMwT6c-P10lc8a3-4VCjZdgCfYZ7w=s900-c-k-c0xffffffff-no-rj-mo);
+    background-image: url(https://images-ext-2.discordapp.net/external/o0hWezdx23r9vZY6LgjRScoj2PdWmSox_EMGlGMlWy0/%3Fixlib%3Drb-1.2.1%26q%3D80%26fm%3Djpg%26crop%3Dentropy%26cs%3Dtinysrgb%26w%3D1080%26fit%3Dmax%26ixid%3DeyJhcHBfaWQiOjEyMDd9/https/images.unsplash.com/photo-1502872364588-894d7d6ddfab?width=893&height=595);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:top;
     margin: 0 0 0 70px;
     
+}
+html{
+    text-align: center;
+    font-family: 'Lobster', cursive, sans-serif;
 }
 h1, p, td, em{
     color: #73C6B6;
@@ -19,12 +23,13 @@ h1, p, td, em{
     
 }
 strong, li{
-    color: #E74C3C;
-    text-shadow: 2px 2px 3px #73C6B6;
+    color: white;
+    text-shadow: 2px 2px 2px red;
+    color: linear-gradient(right, #F4D03F, #D35400);
+    list-style-position: inside;
 }
 li{
-    margin: 10px 0 0 10px;
-    text-shadow: 2px 2px 3px purple;
+    margin: 10px 0 0 10px;    
 }
 .header{
     text-align: center;
@@ -32,6 +37,7 @@ li{
 }
 h1, table{
     margin: 0 0 0 5px;
+    margin: auto;
 }
 a{
     color: chocolate;
@@ -39,7 +45,11 @@ a{
 }
 hr{
     border-color: red;
+    margin-right: 70px;
 }
 p::first-letter{
     font-size: 30px;
+}
+.breakRule span{
+    white-space: pre;
 }
