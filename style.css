@@ -6,7 +6,7 @@ img{
     
 }
 body{
-    background-color: #002b36;
+    background: #002b36;
     
 }
 html{
@@ -15,12 +15,12 @@ html{
 }
 h1, p, td, em{
     color: #73C6B6;
-    text-shadow: 2px 2px 3px red;
+    text-shadow: 2px 2px 3px #d33682;
     
 }
 strong, li{
-    color: white;
-    text-shadow: 2px 2px 2px red;
+    color: #eee8d5;
+
     color: linear-gradient(right, #F4D03F, #D35400);
     list-style-position: inside;
 }
@@ -36,7 +36,7 @@ h1, table{
     margin: auto;
 }
 a{
-    color: chocolate;
+    color: #268BD3;
     text-decoration: none;
 }
 hr{
